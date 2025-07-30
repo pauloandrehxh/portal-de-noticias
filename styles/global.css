@@ -12,6 +12,13 @@
   --text-color-primary: #F1F5F9;
   --text-color-secondary: #CBD5E1;
 
-  
+  --font-family: 'Archivo', sans-serif;
+  --text-lg: extra-bold 24px/1.35 var(--font-family);
+  --text-md: semi-bold 18px/1.35 var(--font-family);
+}
+
+body {
+  color: var(--text-color-primary);
+  background-color: var(--bg-primary);
 }
 
